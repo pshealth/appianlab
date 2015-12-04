@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recordTypeHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <recordType name="Employee" a:uuid="05dc8ce9-5cdb-497d-9286-0ac3b7259bf8">
+        <a:pluralName>Employees</a:pluralName>
+        <a:description>Record for Employees</a:description>
+        <a:urlStub>_iSjew</a:urlStub>
+        <a:source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:Datatype" a:uuid="{OHA}Employee"/>
+        <a:listViewTemplateExpr>#&quot;_a-0000db81-7a28-8000-5130-010000010000_3858&quot;()</a:listViewTemplateExpr>
+        <a:detailViewCfg>
+            <a:nameExpr>=&quot;Summary&quot;</a:nameExpr>
+            <a:uiExpr>#&quot;_a-0000db81-7a28-8000-5130-010000010000_3841&quot;(UserId:rf!UserId,CustomerID:rf!CustomerId,ContactID:rf!ContactId,IsShiftWorker:rf!ShiftWorker,BUID:rf!BU_Id,ID:rf!ID)</a:uiExpr>
+            <a:visibilityExpr>=true()</a:visibilityExpr>
+            <a:urlStub>summary</a:urlStub>
+            <a:headerExpr></a:headerExpr>
+        </a:detailViewCfg>
+        <a:detailViewCfg>
+            <a:nameExpr>&quot;Absence Detail&quot;</a:nameExpr>
+            <a:uiExpr>#&quot;_a-0000db81-7a28-8000-5130-010000010000_3987&quot;(rf!ID,rf!ManagerNessieId)</a:uiExpr>
+            <a:visibilityExpr>=true()</a:visibilityExpr>
+            <a:urlStub>_kF1yRQ</a:urlStub>
+            <a:headerExpr></a:headerExpr>
+        </a:detailViewCfg>
+        <a:defaultSortInfo>
+            <field>ID</field>
+            <ascending>true</ascending>
+        </a:defaultSortInfo>
+        <a:isSystem>false</a:isSystem>
+        <a:dataSrcExpr>#&quot;_a-0000db81-7a28-8000-5130-010000010000_3876&quot;(rsp!query)</a:dataSrcExpr>
+        <a:facetsListExpr></a:facetsListExpr>
+        <a:defaultFiltersExpr></a:defaultFiltersExpr>
+        <a:security>16383</a:security>
+    </recordType>
+    <roleMap>
+        <role name="record_type_administrator">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000db81-7a1f-8000-512d-010000010000_18</groupUuid>
+            </groups>
+        </role>
+        <role name="record_type_viewer">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000db81-7a1f-8000-512d-010000010000_20</groupUuid>
+            </groups>
+        </role>
+        <role name="record_type_editor">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000db81-7a1f-8000-512d-010000010000_19</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+</recordTypeHaul>
