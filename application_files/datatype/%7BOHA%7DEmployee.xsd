@@ -82,6 +82,11 @@
           <xsd:appinfo source="appian.jpa">@Column(name="CostCenterId", columnDefinition="int")</xsd:appinfo>
         </xsd:annotation>
       </xsd:element>
+      <xsd:element name="ManagerEmployeeId" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="ManagerEmployeeId", columnDefinition="int")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
       <xsd:element name="IsLineManager" nillable="true" type="xsd:boolean">
         <xsd:annotation>
           <xsd:appinfo source="appian.jpa">@Column(name="IsLineManager", columnDefinition="BIT")</xsd:appinfo>
