@@ -12,12 +12,12 @@
             <a:visibilityExpr>=true()</a:visibilityExpr>
             <a:urlStub>summary</a:urlStub>
             <a:headerExpr></a:headerExpr>
-            <a:relatedActionCfg>5dda9fd2-8031-48d2-9765-c061ec42bc03</a:relatedActionCfg>
-            <a:relatedActionCfg>eb459da6-ddc0-4836-8556-6072e6040761</a:relatedActionCfg>
-            <a:relatedActionCfg>d95e774d-a543-4fa1-ad43-8a8cf4085fb2</a:relatedActionCfg>
-            <a:relatedActionCfg>a2c71ec3-df4d-4d74-a2dc-5a0d5033c497</a:relatedActionCfg>
-            <a:relatedActionCfg>9fdbb354-b0b0-4035-aebf-886a6c7fbc6d</a:relatedActionCfg>
-            <a:relatedActionCfg>4acb7e06-75db-4d66-a86f-b4de7285b1b6</a:relatedActionCfg>
+            <a:relatedActionCfg>82c57044-16b7-455b-86b4-2e5d7013498e</a:relatedActionCfg>
+            <a:relatedActionCfg>468df7e6-af3c-48e2-b718-1e0f4b230073</a:relatedActionCfg>
+            <a:relatedActionCfg>e57eb26d-42e6-4b44-812f-8a6f807e1d4c</a:relatedActionCfg>
+            <a:relatedActionCfg>e5b38711-c061-48f2-9752-109672816560</a:relatedActionCfg>
+            <a:relatedActionCfg>09869c38-6134-49f2-8bc2-9f3917ea8815</a:relatedActionCfg>
+            <a:relatedActionCfg>c7c71217-ae78-4d3f-8434-376532e4e759</a:relatedActionCfg>
         </a:detailViewCfg>
         <a:detailViewCfg>
             <a:nameExpr>=&quot;SLAs&quot;</a:nameExpr>
@@ -25,7 +25,7 @@
             <a:visibilityExpr>=true()</a:visibilityExpr>
             <a:urlStub>_wxg9Nw</a:urlStub>
             <a:headerExpr></a:headerExpr>
-            <a:relatedActionCfg>9fdbb354-b0b0-4035-aebf-886a6c7fbc6d</a:relatedActionCfg>
+            <a:relatedActionCfg>09869c38-6134-49f2-8bc2-9f3917ea8815</a:relatedActionCfg>
         </a:detailViewCfg>
         <a:defaultSortInfo>
             <field>CreatedDate</field>
@@ -35,55 +35,55 @@
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0002db98-e789-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerID:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>5dda9fd2-8031-48d2-9765-c061ec42bc03</a:refId>
+            <a:refId>82c57044-16b7-455b-86b4-2e5d7013498e</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0002dba3-a8e2-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerID:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=#&quot;fdc9733d-4ce7-404d-a15e-9ecfdcf12918&quot;(rf!ID)</a:visibilityExpr>
-            <a:refId>eb459da6-ddc0-4836-8556-6072e6040761</a:refId>
+            <a:refId>468df7e6-af3c-48e2-b718-1e0f4b230073</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0002dba3-843f-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerId:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>d95e774d-a543-4fa1-ad43-8a8cf4085fb2</a:refId>
+            <a:refId>e57eb26d-42e6-4b44-812f-8a6f807e1d4c</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0002dba3-d0d9-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerId:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>40f26584-f8d5-436f-8e10-9a5e56d0a9cf</a:refId>
+            <a:refId>88df7a26-2ddd-4408-a57e-329d605fe187</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0002dbda-f823-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerId:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>63bc2a4f-c0cc-442e-9d2b-79a147a765a6</a:refId>
+            <a:refId>e0d1bbf2-6ac7-4b33-955a-b94393a6ceb7</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0009dbaa-4435-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerId:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>a2c71ec3-df4d-4d74-a2dc-5a0d5033c497</a:refId>
+            <a:refId>e5b38711-c061-48f2-9752-109672816560</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0004dbe1-d9f2-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerId:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>f9d1b8e0-f684-43ca-8629-1e27db294265</a:refId>
+            <a:refId>33d2d23c-544a-41ac-8bcb-a3758fbc2759</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0004dbfd-09d6-8000-5131-010000010000"/>
             <a:contextExpr>={CustomerID:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>9fdbb354-b0b0-4035-aebf-886a6c7fbc6d</a:refId>
+            <a:refId>09869c38-6134-49f2-8bc2-9f3917ea8815</a:refId>
         </a:relatedActionCfg>
         <a:relatedActionCfg>
             <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0008dc06-a5b4-8000-5131-010000010000"/>
             <a:contextExpr>{CustomerId:rf!ID}</a:contextExpr>
             <a:visibilityExpr>=true()</a:visibilityExpr>
-            <a:refId>4acb7e06-75db-4d66-a86f-b4de7285b1b6</a:refId>
+            <a:refId>c7c71217-ae78-4d3f-8434-376532e4e759</a:refId>
         </a:relatedActionCfg>
         <a:isSystem>false</a:isSystem>
         <a:dataSrcExpr>#&quot;238518eb-2398-485f-adb3-e5c975d4d8c4&quot;(rsp!query)</a:dataSrcExpr>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tempoReportHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <tempoReport name="Absence Report" a:uuid="c92ef6a1-e727-429e-83b9-29de7ce87a8d">
+        <a:description>Click to view absence report</a:description>
+        <a:uiExpr>=#&quot;b3241738-0995-442f-8f98-6ddce107c261&quot;()</a:uiExpr>
+        <a:urlStub>qMO9xA</a:urlStub>
+    </tempoReport>
+    <roleMap>
+        <role name="report_administrator">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000db81-7a1f-8000-512d-010000010000_7</groupUuid>
+            </groups>
+        </role>
+        <role name="report_viewer">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000dc09-3e09-8000-512d-010000010000_290</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+</tempoReportHaul>
