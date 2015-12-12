@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<recordTypeHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <recordType name="Account" a:uuid="b615d9f9-9e93-4318-beb8-5c89c3599d90">
+        <a:pluralName>Accounts</a:pluralName>
+        <a:description>Record for Accounts</a:description>
+        <a:urlStub>Oia04w</a:urlStub>
+        <a:source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:Datatype" a:uuid="{OHA}Users"/>
+        <a:listViewTemplateExpr>#&quot;31f9a45d-9849-420d-976d-ed5ceec43a91&quot;()</a:listViewTemplateExpr>
+        <a:detailViewCfg>
+            <a:nameExpr>=&quot;Summary&quot;</a:nameExpr>
+            <a:uiExpr>#&quot;6fa7c9cc-fdcd-4609-ab9e-edcc859637e4&quot;()</a:uiExpr>
+            <a:visibilityExpr>=true()</a:visibilityExpr>
+            <a:urlStub>summary</a:urlStub>
+            <a:headerExpr></a:headerExpr>
+            <a:relatedActionCfg>1d063ca5-3b3b-4742-b665-b79940c730e2</a:relatedActionCfg>
+        </a:detailViewCfg>
+        <a:defaultSortInfo>
+            <field>FirstName</field>
+            <ascending>true</ascending>
+        </a:defaultSortInfo>
+        <a:relatedActionCfg>
+            <a:target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="a:ProcessModel" a:uuid="0005dc11-120b-8000-5131-010000010000"/>
+            <a:contextExpr>{UserId:rf!ID}</a:contextExpr>
+            <a:visibilityExpr>=true()</a:visibilityExpr>
+            <a:refId>1d063ca5-3b3b-4742-b665-b79940c730e2</a:refId>
+        </a:relatedActionCfg>
+        <a:isSystem>false</a:isSystem>
+        <a:dataSrcExpr>#&quot;b83eb669-c577-4782-85fa-87c3085f05e1&quot;(rsp!query)</a:dataSrcExpr>
+        <a:facetsListExpr>#&quot;cef98ddc-d0a7-46cf-bb28-9911adaf07dc&quot;()</a:facetsListExpr>
+        <a:defaultFiltersExpr></a:defaultFiltersExpr>
+        <a:security>16383</a:security>
+    </recordType>
+    <roleMap>
+        <role name="record_type_administrator">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000db81-7a1f-8000-512d-010000010000_25</groupUuid>
+            </groups>
+        </role>
+        <role name="record_type_viewer">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000db81-7a1f-8000-512d-010000010000_27</groupUuid>
+            </groups>
+        </role>
+        <role name="record_type_editor">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000db81-7a1f-8000-512d-010000010000_26</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+</recordTypeHaul>

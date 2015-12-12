@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tempoReportHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <tempoReport name="Get Imported Hr Group Mapping" a:uuid="4766dd29-6e77-4473-8956-0d3d4191ca3f">
+        <a:description>Get All Imported Hr Group Mapping by Batch id</a:description>
+        <a:uiExpr>=#&quot;_a-0000dc11-109f-8000-5130-010000010000_17608&quot;()</a:uiExpr>
+        <a:urlStub>ftG68w</a:urlStub>
+    </tempoReport>
+    <roleMap/>
+</tempoReportHaul>
